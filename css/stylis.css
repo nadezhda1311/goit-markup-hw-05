@@ -592,6 +592,7 @@ ol {
     0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 72px 24px 24px 24px;
+  margin-bottom: 8px;
 }
 .modal-close-btn {
   position: absolute;
@@ -674,12 +675,13 @@ ol {
 }
 .modal-input-wrap {
   position: relative;
+  margin-bottom: 16px;
 }
 .modal-icon {
   fill: transparent;
   stroke: #2e2f42;
   position: absolute;
-  left: 10px;
+  left: 16px;
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -751,7 +753,7 @@ ol {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.04;
+  letter-spacing: 0.04em;
   color: #ffffff;
   padding: 16px 32px;
   border: none;
