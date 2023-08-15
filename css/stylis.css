@@ -509,6 +509,7 @@ ol {
   fill: #f4f4fd;
 }
 .footer-form {
+  gap: 24px;
   display: flex;
   justify-content: space-between;
 }
@@ -534,6 +535,10 @@ ol {
   background: var(--navyblue, #2e2f42);
   background-color: transparent;
   margin-right: 24px;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 .footer-input::placeholder {
   color: var(--white, #fff);
@@ -541,11 +546,12 @@ ol {
   line-height: 2;
   letter-spacing: 0.04em;
 }
-.footer-btn {
+.footer-btn .btn {
   min-width: 165px;
   height: 40px;
   border: none;
-  display: inline-flex;
+  display: flex;
+  font-family: "Roboto", sans-serif;
   padding: 8px 24px;
   justify-content: center;
   align-items: center;
@@ -553,8 +559,13 @@ ol {
   border-radius: 4px;
   background: var(--iris, #4d5ae5);
   color: var(--white, #fff);
+  font-size: 16px;
+  font-weight: 500px;
+  letter-spacing: 0.04em;
 }
-
+.footer-icon-btn {
+  margin-left: 16px;
+}
 /*--------------------MODAL-----------------------*/
 
 .backdrop {
