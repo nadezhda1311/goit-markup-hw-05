@@ -648,7 +648,7 @@ ol {
   border-radius: 4px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   padding-left: 38px;
-  padding-right: 16px;
+
   font-size: 14px;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -664,6 +664,9 @@ ol {
 }
 .modal-input:required {
   border-width: 2px;
+}
+.modal-field {
+  margin-bottom: 8px;
 }
 .modal-label {
   font-size: 12px;
@@ -702,9 +705,7 @@ ol {
   resize: none;
   border-color: #4d5ae5;
 }
-.modal-field {
-  margin-bottom: 24px;
-}
+
 .modal-check-text {
   color: var(--lightslate, #8e8f99);
   /* Small Text */
