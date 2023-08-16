@@ -630,8 +630,7 @@ button {
   position: absolute;
   left: 8px;
 }
-.modal-close-btn {s
-  
+.modal-close-btn {
 }
 .modal-title {
   color: var(--navyblue, #2e2f42);
@@ -706,6 +705,9 @@ button {
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   resize: none;
+}
+.modal-comment:focus {
+  border-color: #4d5ae5;
 }
 .modal-field-link {
   margin-bottom: 24px;
